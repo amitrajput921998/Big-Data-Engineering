@@ -39,3 +39,10 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
 ### ✅ **Day 8 – Python Revision Begins**
 - Reviewed Python basics: syntax, variables, data types, loops, conditionals, functions, and collections (lists, tuples, sets, dictionaries).
 - Code and notes uploaded in this repository.
+
+✅ **Day 9 – Python Functional Programming & File Handling**
+- Learned Lambda functions, `map()`, and `filter()` for cleaner and faster operations.
+- Explored Python modules, the standard library, and importing techniques.
+- Practiced file operations: reading, writing, and working with file paths.
+- Understood and implemented exception handling to build error-resilient programs.
+- Code and examples added to the repository.
