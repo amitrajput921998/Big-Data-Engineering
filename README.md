@@ -46,3 +46,12 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
 - Practiced file operations: reading, writing, and working with file paths.
 - Understood and implemented exception handling to build error-resilient programs.
 - Code and examples added to the repository.
+
+✅ **Day 10 – Object-Oriented Programming in Python**
+- Revised and practiced key OOP concepts to improve code structure and reusability.
+- Topics covered:
+  - **Classes & Objects** – The foundation of OOP in Python.
+  - **Inheritance** – Reusing code through parent-child class structures.
+  - **Polymorphism** – Allowing methods to behave differently depending on the object.
+  - **Encapsulation** – Keeping data secure and private within objects.
+  - **Abstraction** – Hiding internal implementation and exposing only necessary parts.
