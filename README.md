@@ -55,3 +55,33 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
   - **Polymorphism** – Allowing methods to behave differently depending on the object.
   - **Encapsulation** – Keeping data secure and private within objects.
   - **Abstraction** – Hiding internal implementation and exposing only necessary parts.
+
+✅ **Day 11 – Magic Methods, Iterators & Decorators**
+- Explored advanced Python concepts to write more Pythonic, powerful, and reusable code.
+- Topics covered:
+  - Magic Methods (`__str__`, `__repr__`, `__add__`, etc.)
+  - Custom Exceptions
+  - Operator Overloading
+  - Iterators & Iterables
+  - Generators using `yield`
+  - Function Decorators
+
+✅ **Day 12 – Python Libraries for Data Handling & Integration**
+- Focused on real-world data manipulation and connecting Python to databases.
+- Topics covered:
+  - NumPy – Arrays and numerical operations
+  - Pandas – DataFrames, cleaning, filtering, and reshaping data
+  - Data Cleaning – Handling nulls, duplicates, formatting
+  - Logging – Structured logging and debugging
+  - SQLite with Python – Creating DBs, inserting records, querying with `sqlite3`
+
+✅ **Day 13 – Introduction to Big Data Concepts**
+- Learned the foundational concepts of Big Data and modern system architecture.
+- Topics covered:
+  - What is Big Data – Real-world example
+  - 5 V's of Big Data – Volume, Velocity, Variety, Veracity, Value
+  - Distributed Systems – Why and how we scale
+  - Designing a Good Big Data System – Best practices
+  - On-Premise vs Cloud Infrastructure
+  - Database vs Data Warehouse vs Data Lake
+  - ETL vs ELT – Understanding transformation flow
