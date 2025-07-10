@@ -84,4 +84,27 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
   - Designing a Good Big Data System – Best practices
   - On-Premise vs Cloud Infrastructure
   - Database vs Data Warehouse vs Data Lake
-  - ETL vs ELT – Understanding transformation flow
+  - ETL vs ELT – Understanding transformation flow.
+  
+✅ **Day 14 – Hadoop Architecture & Ecosystem**
+- Learned the core fundamentals of Hadoop and its role in distributed data processing.
+- Topics covered:
+  - Hadoop Architecture: GFS, MapReduce
+  - Hadoop Properties: Scalability, Fault Tolerance, Distributed Processing, Cost-Effectiveness, Open Source
+  - HDFS (Hadoop Distributed File System): File system blocks, replication, rack awareness, metadata handling
+  - Hadoop Ecosystem Overview:
+    - **Storage**: HDFS, HBase
+    - **Processing**: MapReduce, Pig, Hive, Spark
+    - **Data Integration**: Flume, Sqoop
+    - **Workflow & Coordination**: Oozie, ZooKeeper
+    - **ML**: Mahout
+
+✅ **Day 15 – GCP Cluster Setup & DataNode Failures**
+- Took the first step into cloud platforms by creating a cluster on Google Cloud Platform (GCP).
+- Topics covered:
+  - GCP setup: Compute Engine, firewall rules, SSH configuration
+  - Created a basic Hadoop cluster on virtual machines
+  - Learned how Hadoop handles **DataNode failures**:
+    - Temporary vs Permanent failure
+    - Heartbeat mechanism & block replication
+    - HDFS fault-tolerant architecture
