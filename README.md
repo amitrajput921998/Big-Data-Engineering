@@ -108,3 +108,20 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
     - Temporary vs Permanent failure
     - Heartbeat mechanism & block replication
     - HDFS fault-tolerant architecture
+
+✅ **Day 16 – Hadoop HA & HDFS Write Flow**
+- Explored how Hadoop ensures fault tolerance and service continuity in enterprise environments.
+- Topics covered:
+  - **Secondary NameNode** – Handles periodic merge of fsimage and edit logs
+  - **Standby NameNode** – Supports failover in HA setup
+  - **Hadoop High Availability (HA)** – Architecture using ZooKeeper and JournalNodes
+  - **HDFS Write Process** – Client to NameNode to DataNode pipeline.
+
+✅ **Day 17 – GCP Hadoop Cluster, Linux & HDFS Commands**
+- Deployed a working Hadoop cluster on **Google Cloud Platform (GCP)**.
+- Topics covered:
+  - **GCP Hadoop Cluster Setup** – Created VMs, configured SSH and firewall rules
+  - **Exploring Cluster Nodes** – Verified services, web UI, and logs
+  - **GCP Best Practices** – Resource tagging, security, region zoning
+  - **Linux Commands** – File, process, and system navigation using CLI
+  - **HDFS CLI** – Upload, view, delete files and check block info in Hadoop
