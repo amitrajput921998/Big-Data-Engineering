@@ -125,3 +125,11 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
   - **GCP Best Practices** – Resource tagging, security, region zoning
   - **Linux Commands** – File, process, and system navigation using CLI
   - **HDFS CLI** – Upload, view, delete files and check block info in Hadoop
+  
+✅ **Day 18 – MapReduce & Distributed Processing**
+- Learned the fundamentals of MapReduce and how it powers large-scale distributed data processing.
+- Topics covered:
+  - Map & Reduce functions
+  - Key-value pair transformations
+  - Workflow: Input → Map → Shuffle & Sort → Reduce → Output
+  - Role of cluster in parallel execution
