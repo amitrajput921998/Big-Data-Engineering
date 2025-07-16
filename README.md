@@ -133,3 +133,10 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
   - Key-value pair transformations
   - Workflow: Input → Map → Shuffle & Sort → Reduce → Output
   - Role of cluster in parallel execution
+ 
+✅ **Day 19 – YARN Architecture & Process**
+- Learned about YARN: the key layer in Hadoop for job scheduling and resource management.
+- Topics covered:
+  - YARN components: ResourceManager, NodeManager, ApplicationMaster, Containers
+  - Analogy for simplified understanding
+  - Full lifecycle of a job in YARN: from submission to completion
