@@ -1,42 +1,70 @@
-#  A function is a block of code that performs a specific task. Functions help in organizing code,reusing code, and improving readability
-# Sytax
-# def function_name(para):
-#     return expression
+# def sum(a,b):
+#     return a+b
 
-def even_or_odd(num):
-    if num%2==0:
-        print("the number is even")
-    else:
-        print("the number is oddd")
+# fun1=sum
+# print(fun1(1,2))
 
+# l=[1,2,3,4,5]
 
-# print(even_or_odd(22))
+# l.append(sum)
+# print(l)
 
+# print(type(sum))
 
-def add(a,b):
-    return a+b
+# # Can be passed as an argument to another function
+# def sum(a,b):
+#     print(a+b)
 
-result=add(3,4)
+# sum(2,3)
+
+# def squareofNumber(x):
+#     return x*x
+
+# a=squareofNumber(5)
+# print(a)
+
+# def squareofalist(l1):
+#     l1square=[]
+#     for i in l1:
+#         l1square.append(squareofNumber(i))
+
+#     return l1square
+# l1=[2,3,4,5]
+# result=squareofalist(l1)
+
+# Write a program to get a list and return each and every element as a positive/abs value
+import math
+
+def absoluteofnumber(x):
+    return math.fabs(x)
+
+def operationonlist(l1,func):
+    l1modified=[]
+    for i in l1:
+        l1modified.append(func(i))
+    return l1modified
+
+l1=[2,3,4,-3,-4,5]
+
+result=operationonlist(l1,absoluteofnumber)
 # print(result)
 
-# default parameters
-def greet(name="max"):
-    print(f"hello {name}")
+def greet(name):
+    return f"Namaste {name}"
 
-# print(greet())
+def hello():
+    return greet("Amit")
 
-# variable length arguments
-# postional and keywords arguments
-def print_number(*args):
-    for num in args:
-        print(num)
+# print(hello())
 
-# print(print_number(1,2,3,4,5,6))
-    
-# keywords arguments
+def factorial():
+    return math.factorial
 
-def print_details(**kwargs):
-    for k,v in kwargs.items():
-        print(k,v)
+factorial()
+print(factorial())
 
-print(print_details(name="max",age=23))
+def FindFactorial(num):
+    f=factorial()
+    return f(num)
+
+print(FindFactorial(5))
