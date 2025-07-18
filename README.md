@@ -140,3 +140,19 @@ Welcome to my personal learning journey into the world of **Big Data**, where I'
   - YARN components: ResourceManager, NodeManager, ApplicationMaster, Containers
   - Analogy for simplified understanding
   - Full lifecycle of a job in YARN: from submission to completion
+
+✅ Day 20 – Apache Spark Basics & Advantages
+
+Started my journey into Apache Spark: a powerful engine for big data processing.
+
+Topics covered:
+
+What is Apache Spark and how it's different from Hadoop MapReduce
+
+Key advantages of Spark: in-memory computation, speed, scalability, fault tolerance
+
+Spark Ecosystem Overview: Spark Core, SQL, Streaming, MLlib, GraphX
+
+Common Spark Interview Questions and real-world use cases
+
+Understood Spark's relevance in modern data engineering pipelines
